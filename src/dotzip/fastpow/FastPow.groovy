@@ -18,4 +18,4 @@ def fastPow(int base, int power, int modul){
     return res % modul
 }
 
-println fastPow(595, 703, 991)
+assert fastPow(595, 703, 991) == 342 //expected 342
